@@ -1,0 +1,226 @@
+*{
+ margin: 0px;
+ padding: 0px;
+ height: 100%;
+}
+.background{
+   background: url(photo.jpg) no-repeat center;
+   opacity: 60%;
+   background-size: cover;
+   height: 100%;
+   z-index: -1;
+   
+}
+.nav_content{
+   width: 100%;
+   height: 100%; 
+   z-index: 2;
+ 
+   border-radius:  1px solid white;
+   border-color: aliceblue;
+}
+.nav_content ul{
+   list-style-type: none;
+   display: flex;
+   justify-content: end;
+   gap: 40px;
+   margin-right: 20px;
+   padding-top: 10px;
+}
+.portfolio h1{
+   z-index: 2;
+   font-size: 3.5rem;
+   font-weight: bolder;
+   font-family: 'Times New Roman', Times, serif;
+   color: white;
+   
+}
+nav{
+   display: flex;
+ height: 8%;
+ background-color: rgba(10, 10, 10,.5);
+ z-index: 1;
+ position: absolute;
+ width: 100%;
+}
+h1{
+font-size: 2rem;
+padding-right: 50%;
+}
+.nav_content ul a{
+   color: rgb(255, 254, 250);
+   font-size: 1.2rem;
+   z-index: 2;
+   font-weight: bold;
+}
+.nav_content ul a:hover{
+   border: 3px solid black;
+   border-radius: 2px;  
+}
+.me h1{
+   text-align: center;
+   padding: 50px 0px 0px 800px;
+   height: 100%;
+   color: rgba(255, 255, 255, .72);
+   font-weight: bolder;
+   font-size: 8rem;
+   z-index: 3;
+}
+.about{
+   width: 100%;
+   height: 500px;
+   background-color: rgba(143, 143, 21, 0.2);
+   display: flex;
+   gap: 20px;
+   padding-top: 40px;
+   justify-content: space-around;
+
+}
+.education{
+   width: 400px;
+   height: 450px;
+   background-color: rgba(255, 255, 255, 0.685);
+   z-index: 3;
+   border-radius: 10px;  
+}
+.skills{
+   width: 400px;
+   height: 450px;
+   background-color: rgba(255, 255, 255, 0.685);
+   z-index: 3;
+   border-radius: 10px;
+   
+}
+.achievments{
+   width: 400px;
+   height: 450px;
+   background-color: rgba(255, 255, 255, 0.685);
+   z-index: 3;
+   border-radius: 10px;
+   
+}
+.mee{
+   background-color: rgba(10, 10, 10,.5);
+   text-align: center;
+   height: 50px;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+   color: black;
+   padding-top: 10px;
+   font-size: .5rem;
+   font-family: 'Times New Roman', Times, serif;
+}
+.content {
+padding: 20px 10px;
+font-size: 1rem;
+font-weight: bold;
+}
+.skill_category ul{
+width: 100%;
+height: 100%;
+}
+.certificate-gallery {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
+   justify-content: center;
+  padding: 20px;
+   margin: 0px;
+   background-color: rgba(143, 143, 21, 0.25);
+ }
+
+ .certificate-card {
+   width: 250px;
+   cursor: pointer;
+   border-radius: 10px;
+   overflow: hidden;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+   transition: transform 0.3s, box-shadow 0.3s;
+   height: 90%;
+ }
+
+ .certificate-card img {
+   width: 100%;
+   height: auto;
+ }
+
+ .certificate-card:hover {
+   transform: scale(1.05);
+   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+ }
+
+ .modal {
+   display: none;
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background: rgba(0, 0, 0, 0.8);
+   justify-content: center;
+   align-items: center;
+   z-index: 1000;
+ }
+
+ .modal img {
+   max-width: 90%;
+   max-height: 90%;
+ }
+
+ .modal:target {
+   display: flex;
+ }
+.top{
+   width: 100%;
+  height: 50px;
+   background-color: rgba(143, 143, 21, 0.3);
+}
+.top a h3{
+   text-align: center;
+   font-weight: bold;
+   font-size: 1.5rem;
+   padding-top: 12px;
+}
+.final{
+   height: 35%;
+}
+.top a{
+   color: black;
+}
+.hobbies {
+   display:flexbox;
+   justify-content: space-evenly;
+   height: auto;
+   
+}
+.hobbies h3{
+   font-size: 1.5rem;
+   font-weight: bolder;
+}
+.last{
+   display: flex;
+   justify-content: space-evenly;
+   height: 20px;
+}
+.bottom{
+   background-color: rgba(143, 143, 21, 0.2);
+   height: 350px;
+}
+.hobbies p{
+   font-size: .8rem;
+   font-weight: 700;
+}
+.hobbies a{
+   color: black;
+}
+.end{
+   height: 15%;
+   background-color: rgba(0, 0, 0,.8);
+   color: white;
+   display: flex;
+   padding-left: 40%;
+   gap: 10px;
+}
+#i{
+   padding-top: 5px;
+}
