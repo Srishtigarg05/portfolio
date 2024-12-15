@@ -82,6 +82,7 @@ padding-right: 50%;
    background-color: rgba(255, 255, 255, 0.685);
    z-index: 3;
    border-radius: 10px;  
+   cursor: pointer;
 }
 .skills{
    width: 400px;
@@ -89,6 +90,7 @@ padding-right: 50%;
    background-color: rgba(255, 255, 255, 0.685);
    z-index: 3;
    border-radius: 10px;
+   cursor: pointer;
    
 }
 .achievments{
@@ -97,6 +99,7 @@ padding-right: 50%;
    background-color: rgba(255, 255, 255, 0.685);
    z-index: 3;
    border-radius: 10px;
+   cursor: pointer;
    
 }
 .mee{
@@ -109,15 +112,46 @@ padding-right: 50%;
    padding-top: 10px;
    font-size: .5rem;
    font-family: 'Times New Roman', Times, serif;
+   
+}
+.achievments:hover{
+   transform: scale(1.05);
+   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+.skills:hover{
+   transform: scale(1.05);
+   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+.education:hover{
+   transform: scale(1.05);
+   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 .content {
 padding: 20px 10px;
 font-size: 1rem;
 font-weight: bold;
 }
-.skill_category ul{
+.skill-category{
 width: 100%;
-height: 100%;
+display: flex;
+flex-direction: column; /* Or row */
+font-size: .8rem;
+overflow: visible;
+height: fit-content;
+padding-left: 20px;
+font-weight: bold;
+}
+.skill-category h3{
+   font-weight: bold;
+   font-size: 1.5rem;
+   padding-top: 10px;
+}
+.category{
+   padding-top: 10px;
+}
+.category li{
+   padding-top: 25px;
+   font-size: .9rem;
 }
 .certificate-gallery {
    display: flex;
