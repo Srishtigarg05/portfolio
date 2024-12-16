@@ -62,10 +62,10 @@ padding-right: 50%;
    text-align: center;
    padding: 50px 0px 0px 800px;
    height: 100%;
-   color: rgba(255, 255, 255, .72);
+   color:rgba(0, 0, 0, 0.3);
    font-weight: bolder;
    font-size: 8rem;
-   z-index: 3;
+   z-index: 4;
 }
 .about{
    width: 100%;
@@ -329,13 +329,13 @@ font-weight: bold;
    }
   
    .certificate-card {
-     width: 200px;
+     width: 220px;
      cursor: pointer;
      border-radius: 10px;
      overflow: hidden;
      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
      transition: transform 0.3s, box-shadow 0.3s;
-     height: 80%;
+     height: 75%;
    }
   
    .certificate-card img {
@@ -461,3 +461,121 @@ color: brown;
    height: fit-content;
    padding: 0px 10px;
 }
+.contact {
+   display: flex;
+   justify-content: space-around;
+   align-items: flex-start;
+   background-color: rgba(143, 143, 21, 0.2); 
+   padding: 40px 10px 40px 10px;
+   height: 600px;
+ }
+ 
+ .contact_left {
+   width: 40%;
+   color: rgba(10, 10, 10, 0.9);
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 1rem;
+   line-height: 1.8rem;
+   height: fit-content;
+   border-radius: 10px;
+   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+   background-color: rgba(255, 255, 255, 0.8);
+  
+ }
+ .info{
+height: 10px;
+width: 100%;
+background-color: rgba(143, 143, 21, 0.2);
+padding: 10px 0px 20px 50px;
+ }
+ .info h2{
+   font-size: 2rem;
+   font-weight: bold;
+  
+ }
+ .contact_left i {
+   font-size: 1.5rem;
+   color: rgba(143, 143, 21, 0.8);
+   margin-left: 20px;
+   padding-top: 10px;
+   cursor: pointer;
+ }
+ .contact_left i:hover{
+   transform: scale(0.9);
+   box-shadow: 0 14px 15px rgba(0, 0, 0, 0.3);
+ }
+ .contact_left h2 {
+   font-size: 1.3rem;
+   font-weight: bold;
+   margin: 10px;
+   color: rgba(10, 10, 10, 0.8);
+ }
+ 
+ .contact_left p {
+   font-size: 1rem;
+   color: rgba(10, 10, 10, 0.6);
+   margin: 5px 0px 0px 10px;
+ }
+ 
+ .contact_right {
+   width: 50%;
+   background-color: rgba(255, 255, 255, 0.8);
+   padding:0px 10px;
+   border-radius: 10px;
+   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+height: 480px; 
+}
+ 
+ .contact_right form {
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+   height: auto;
+   font-size: .8rem;
+ }
+ 
+ .contact_right label {
+   font-size: 1rem;
+   font-weight: bold;
+   margin-bottom: 5px;
+   color: rgba(10, 10, 10, 0.8);
+ }
+ 
+ .contact_right input {
+   width: 100%;
+   padding: 5px;
+   border: 1px solid rgba(10, 10, 10, 0.3);
+   border-radius: 5px;
+   font-size: 1rem;
+   background-color: rgba(255, 255, 255, 0.9);
+ }
+ 
+ .contact_right input:focus {
+   border-color: rgba(143, 143, 21, 0.8); 
+   outline: none;
+ }
+ 
+ .click {
+   text-align: center;
+   width: 650px;
+   height: 50px;
+   padding-top: 10px;
+ }
+ 
+ .click button {
+   background-color: rgba(143, 143, 21, 0.8); 
+   color: white;
+   border: none;
+   font-size: 1rem;
+   font-weight: bold;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: transform 0.3s, box-shadow 0.3s;
+   padding: 10px;
+ }
+ 
+ .click button:hover {
+   transform: scale(1.1);
+   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+ }
+ 
