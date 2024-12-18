@@ -455,6 +455,7 @@ color: brown;
    width: 100%;
    display: flex;
    gap: 20px;
+   justify-content: space-evenly;
   
 }
 .project1 p{
@@ -578,4 +579,5 @@ height: 480px;
    transform: scale(1.1);
    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
  }
- 
+
+
