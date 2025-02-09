@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+
+    <style>
+        .contact{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .contact_right input{
+            display: flex;
+            flex-direction: row;
+            
+        }
+        .contact_right{
+            border: 1px solid black;
+            width: 250px;
+            height: 280px;
+            padding-left: 90px;
+            padding-top: 20px;
+   }
+   .contact_left{
+    border: 1px solid black;
+    width: 380px;
+    height: 400px;
+    padding-top: 10px;
+    text-align: center;
+   }
+   button{
+    text-align: center;
+    
+   }
+   .click{
+    padding: 25px;
+   }
+    </style>
+</head>
+<body>
+    <h3>Contact</h3>
+    <div class="contact">
+    <div class="contact_left">
+        <i class="fa-solid fa-location-dot"></i>
+        <h2>Address</h2>
+        <p>Ghaziabad, Uttar Pradesh</p>
+        <br>
+        <i class="fa-solid fa-phone"></i>
+        <h2>Call at</h2>
+        <p>+91 8527569663</p>
+        <br>
+        <i class="fa-solid fa-envelope"></i>
+        <h2>Email at</h2>
+        <p>gsrishti516@gmail.com</p>
+    </div>
+    <div class="contact_right">
+        <form>
+            <label>Your Name</label> <input type="text">
+           
+            <br>
+            <label>Your Email</label>
+            <input type="email">
+            <br>
+            <label>Subject</label>
+            <input type="text">
+            <br>
+            <label>Message</label>
+            <input type="text">
+        </form>
+        <div class="click"><button>Send Message</button></div>
+        
+    </div>
+</div>
+</body>
+</html>

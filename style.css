@@ -456,6 +456,7 @@ color: brown;
    display: flex;
    gap: 20px;
    justify-content: space-evenly;
+   flex-wrap: nowrap;
   
 }
 .project1 p{
