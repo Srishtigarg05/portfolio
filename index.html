@@ -3,242 +3,285 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Srishti Garg - Portfolio</title>
+    <link rel="stylesheet" href="enhance.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
    <div class="background">
-    <nav>
-<div class="portfolio"> <h1>PORTFOLIO</h1></div>
-
-           <div class="nav_content" id="home">
+    <nav class="navbar">
+        <div class="portfolio">
+            <h1><span class="highlight">PORT</span>FOLIO</h1>
+        </div>
+        <div class="nav_content" id="home">
             <ul>
                 <li class="active"><a href="#home">Home</a></li>
-               <li><a href="#about">About</a></li>
+                <li><a href="#about">About</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#certifications">Certifications</a></li>
-                <li><a href="#contacts">Contacts</a></li>
+                <li><a href="#contacts">Contact</a></li>
             </ul>
-           </div>
-     </nav>
-     <div class="me"><h1>Hello, I'am Srishti Garg</h1></div>
+        </div>
+    </nav>
+    <div class="hero-section">
+        <div class="hero-content">
+            <h2 class="greeting">Hello, I'm</h2>
+            <h1 class="name">Srishti Garg</h1>
+            <p class="tagline">A passionate Computer Science student & Web Developer</p>
+            <div class="cta-buttons">
+                <a href="#projects" class="primary-btn">View Projects</a>
+                <a href="#contacts" class="secondary-btn">Contact Me</a>
+            </div>
+        </div>
     </div>
-    <div class="about" id="about">
-<div class="education">
-    <div class="mee"> <h3>About me</h3></div>
-    <div class="content">
-   <p>Hello, I'm Srishti Garg, a third-semester Computer Science student at ABES Engineering College. I completed my 
-    schooling at Holy Child School, where I built a strong foundation in science and technology.
-    <br>
-    I scored 9.02 cgpa in my first year. Proficient in Java, C, HTML, and CSS, 
-I’m currently mastering Data Structures and Algorithms 
-in Java while working on projects like a Amazon landing page clone.
-<br>
-
-I love building projects that not only solve real-world challenges 
-but also showcase creativity and technical skills.
-
-</p>
    </div>
-</div>
-<div class="skills">
-   
-    <div class="mee"> <h3>Skills</h3></div>
-     
-           <div class="skill-category">
-            <h3>Programming Languages</h3>
-            <ul>
-              <li>Java</li>
-              <li>C</li>
-              <li>HTML</li>
-              <li>CSS</li>
-            </ul>
-          </div>
-          
-          <div class="skill-category">
-            <h3>Tools & Technologies</h3>
-            <ul>
-              <li>IoT (NPTEL Certified)</li>
-              <li>Git & GitHub</li>
-              <li>VS Code</li>
-            </ul>
-          </div>
-          
-          <div class="skill-category">
-            <h3>Focus Areas</h3>
-            <ul>
-              <li>Data Structures and Algorithms</li>
-              <li>Web Development</li>
-              <li>Front-End Projects</li>
-              <li>Problem-Solving</li>
-            </ul>
-          </div>
-      
-</div>
-<div class="achievments"> <div class="mee"><h3>Achievemnts</h3></div>
-<div class="skill-category">
-  
-  <h3>Achievments and rankings</h3>
-  <div class="category">
-  <ul>
 
-    <a href="https://www.hackerrank.com/profile/gsrishti516"><li>4 star hackerrank in C</li></a>
-    <a href="https://www.hackerrank.com/profile/gsrishti516"> <li>3 star hackerrank in Problem Solving</li></a>
-    <a href="https://www.hackerrank.com/profile/gsrishti516"> <li>3star hackerrank in Java</li></a>
-    <a href="c5.png"><li>NPTEL certificate in IoT</li></a> 
-    <a href="https://www.hackerrank.com/profile/gsrishti516"><li>Problem Solving Certificate Hackerrank</li></a>
-   <a href="https://www.codechef.com/users/next_dive_50"> <li>1 star in codechef</li></a>
+   <div class="about-section" id="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-grid">
+            <div class="about-card">
+                <div class="card-header">
+                    <i class="fas fa-user-graduate"></i>
+                    <h3>Background</h3>
+                </div>
+                <div class="content">
+                    <p>Third-semester Computer Science student at ABES Engineering College with a CGPA of 9.02. Alumna of Holy Child School with a strong foundation in science and technology.</p>
+                </div>
+            </div>
 
+            <div class="about-card">
+                <div class="card-header">
+                    <i class="fas fa-code"></i>
+                    <h3>Skills</h3>
+                </div>
+                <div class="content skills-grid">
+                    <div class="skill-item">
+                        <span>Java</span>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>C</span>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>HTML/CSS</span>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
+            <div class="about-card">
+                <div class="card-header">
+                    <i class="fas fa-trophy"></i>
+                    <h3>Achievements</h3>
+                </div>
+                <div class="content">
+                    <ul class="achievement-list">
+                        <li><i class="fas fa-star"></i> 4 star Hackerrank in C</li>
+                        <li><i class="fas fa-star"></i> 3 star Hackerrank in Java</li>
+                        <li><i class="fas fa-star"></i> 3 star Hackerrank in Problem Solving</li>
+                        <li><i class="fas fa-certificate"></i> NPTEL certified in IoT</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 
-  </ul>
-  </div>
-</div></div>
-
-
-</div>
-<div class="projects" id="projects">
-<div class="project1">
-  <h3>Project 1</h3>
-  <br>
-  <p>I made an amazon clone using HTML and CSS this project helped me strengthen my concepts and design a basic layout for the websites </p>
-  <a href="https://srishtigarg05.github.io/Amzone-clone/">View Project</a>
-</div>
-<div class="project1">
-  <h3>Project 2</h3>
-  <br>
-  <p>I made an Simple Calculator using HTML,CSS and JavaScript this project helped me understand the basic concepts of javascript </p>
-  <a href="https://srishtigarg05.github.io/calculator/">View Project</a>
-</div>
-<div class="project1">
-  <h3>Project 3</h3>
-  <br>
-  <p>I made a password generator that generates a random password for the user made using functions of javaScript </p>
-  <a href="https://srishtigarg05.github.io/passwordgenerator/">View Project</a>
-</div>
-<div class="project1">
-  <h3>Project 4</h3>
-  <br>
-  <p>I made a to-do-list to keep the track of activities </p>
-  <a href="https://srishtigarg05.github.io/js-learner/">View Project</a>
-</div>
-
-</div>
-<div class="final">
-    <section class="certificate-gallery" id="certifications">
-        
-        <!-- Certificates -->
-        <a href="#certificate1" class="certificate-card">
-          <img src="c1.png" alt="Certificate 1">
-        </a>
-        <a href="#certificate2" class="certificate-card">
-          <img src="c2.png" alt="Certificate 2">
-        </a>
-        <a href="#certificate3" class="certificate-card">
-          <img src="c3.png" alt="Certificate 3">
-        </a>
-        <a href="#certificate4" class="certificate-card">
-            <img src="c4.png" alt="Certificate 2">
-          </a>
-          <a href="#certificate5" class="certificate-card">
-            <img src="c5.png" alt="Certificate 3">
-          </a>
-          <a href="#certificate6" class="certificate-card">
-            <img src="c6.png" alt="Certificate 3">
-          </a>
-      </section>
-      <div id="certificate1" class="modal">
-        <img src="c1.png" alt="Certificate 1">
-      </div>
-      <div id="certificate2" class="modal">
-        <img src="c2.png" alt="Certificate 2">
-      </div>
-      <div id="certificate3" class="modal">
-        <img src="c3.png" alt="Certificate 1">
-      </div>
-      <div id="certificate4" class="modal">
-        <img src="c4.png" alt="Certificate 1">
-      </div>
-      <div id="certificate5" class="modal">
-        <img src="c5.png" alt="Certificate 1">
-      </div>
-      <div id="certificate6" class="modal">
-        <img src="c6.png" alt="Certificate 1">
-      </div>
-      <div class="info"  id="contacts"><h2>Contact me at:</h2></div>
-      <div class="contact">
-      
-        
-      <div class="contact_left">
-          <i class="fa-solid fa-location-dot"></i>
-          <h2>Address</h2>
-          <p>Ghaziabad, Uttar Pradesh</p>
-          <br>
-          <i class="fa-solid fa-phone"></i>
-          <h2>Call at</h2>
-          <p>+91 8527569663</p>
-          <br>
-          <i class="fa-solid fa-envelope"></i>
-          <h2>Email at</h2>
-          <p>gsrishti516@gmail.com</p>
-      </div>
-      <div class="contact_right">
-          <form>
-              <label>Your Name</label> <input type="text">
-             
-              <br>
-              <label>Your Email</label>
-              <input type="email">
-              <br>
-              <label>Subject</label>
-              <input type="text">
-              <br>
-              <label>Message</label>
-              <input type="text">
-          </form>
-          <div class="click"><button>Send Message</button></div>
-          
-      </div>
-  </div>
-
-
-      <div class="bottom">
-        <div class="top"><a href="#home"><h3>Back to top</h3></a></div>
+    <div class="projects-section" id="projects">
+        <h2 class="section-title">My Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-content">
+                    <h3>Amazon Clone</h3>
+                    <p>A responsive Amazon homepage clone built with HTML & CSS, demonstrating advanced layout and styling capabilities.</p>
+                    <div class="tech-stack">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                    </div>
+                    <a href="https://srishtigarg05.github.io/Amzone-clone/" class="project-link">
+                        <i class="fas fa-external-link-alt"></i> View Project
+                    </a>
+                </div>
+            </div>
+               
+                <div class="project-card">
+                <div class="project-content">
+                    <h3>Password Generator</h3>
+                    <p>A random password generator that generates a random password for the user made using functions of javaScript.</p>
+                    <div class="tech-stack">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>Js</span>
+                    </div>
+                    <a href="https://srishtigarg05.github.io/passwordgenerator/" class="project-link">
+                        <i class="fas fa-external-link-alt"></i> View Project
+                    </a>
+                </div>
+                </div>
+                <div class="project-card">
+                <div class="project-content">
+                    <h3>Simple Calculator</h3>
+                    <p>Simple Calculator using HTML,CSS and JavaScript this project helped me understand the basic concepts of javascript</p>
+                    <div class="tech-stack">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>Js</span>
+                    </div>
+                    <a href="https://srishtigarg05.github.io/calculator/" class="project-link">
+                        <i class="fas fa-external-link-alt"></i> View Project
+                    </a>
+                </div>
+                </div>
+                <div class="project-card">
+                <div class="project-content">
+                    <h3>To-Do-List</h3>
+                    <p>I made a to-do-list to keep the track of activities</p>
+                    <div class="tech-stack">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>Js</span>
+                    </div>
+                    <a href="https://srishtigarg05.github.io/js-learner/" class="project-link">
+                        <i class="fas fa-external-link-alt"></i> View Project
+                    </a>
+                </div>
+                
+            </div>
+            <!-- Repeat for other projects -->
+        </div>
+    </div>
     
-   <div class="last" id="contacts">
-
-    <div class="hobbies" class="ho">
-        <p><h3>Hobbies</h3></p>
-  <p>Coding</p>
-  <p>Cooking</p>
-  <p>Travelling</p>
-  <p>Sketching</p>
-</div>
-   <div class="hobbies" class="ho">
-    <p><h3>Highlights</h3></p>
-    <p>Certified by NPTEL in IOT</p>
-    <p>4 star hackerrank in C</p>
-    <p>3 start hackerrank in problem solving</p>
-   <p>2 start hackerrank in problem solving</p>
-   </div>
-   <div class="hobbies" class="ho">
-    <p><h3>Contacts</h3></p>
-   <a href="#"><p>E-mail</p></a> 
-    <a href="https://www.linkedin.com/in/srishti-garg-a3b092297/"><p>LinkedIn</p></a>
-
-    <a href="https://github.com/Srishtigarg05"><p>GitHub</p></a>
-
-   </div>
-</div>
-</div>
-<div class="end">
-    <i class="fa-regular fa-copyright" id="i"></i>
-    <p>Portfolio Srishti Garg let's connect and make things better together</p>
-</div>  
+    <div class="certifications-section" id="certifications">
+        <br>
+        <h2 class="section-title">Certifications</h2>
+        <div class="cert-grid">
+            <!-- Your existing certificate gallery structure -->
+            <section class="certificate-gallery" id="certifications">
         
-    
-    
+                <!-- Certificates -->
+                <a href="#certificate1" class="certificate-card">
+                  <img src="c1.png" alt="Certificate 1">
+                </a>
+                <a href="#certificate2" class="certificate-card">
+                  <img src="c2.png" alt="Certificate 2">
+                </a>
+                <a href="#certificate3" class="certificate-card">
+                  <img src="c3.png" alt="Certificate 3">
+                </a>
+                <a href="#certificate4" class="certificate-card">
+                    <img src="c4.png" alt="Certificate 2">
+                  </a>
+                  <a href="#certificate5" class="certificate-card">
+                    <img src="c5.png" alt="Certificate 3">
+                  </a>
+                  <a href="#certificate6" class="certificate-card">
+                    <img src="c6.png" alt="Certificate 3">
+                  </a>
+              </section>
+              <div id="certificate1" class="modal">
+                <img src="c1.png" alt="Certificate 1">
+              </div>
+              <div id="certificate2" class="modal">
+                <img src="c2.png" alt="Certificate 2">
+              </div>
+              <div id="certificate3" class="modal">
+                <img src="c3.png" alt="Certificate 1">
+              </div>
+              <div id="certificate4" class="modal">
+                <img src="c4.png" alt="Certificate 1">
+              </div>
+              <div id="certificate5" class="modal">
+                <img src="c5.png" alt="Certificate 1">
+              </div>
+              <div id="certificate6" class="modal">
+                <img src="c6.png" alt="Certificate 1">
+              </div>
+        </div>
+    </div>
+
+    <div class="contact-section" id="contacts">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h3>Location</h3>
+                        <p>Ghaziabad, Uttar Pradesh</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h3>Email</h3>
+                        <p>gsrishti516@gmail.com</p>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/srishti-garg-a3b092297/"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/Srishtigarg05"><i class="fab fa-github"></i></a>
+                    <a href="https://www.hackerrank.com/profile/gsrishti516"><i class="fab fa-hackerrank"></i></a>
+                </div>
+            </div>
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" placeholder="Subject" required>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            
+            <div class="last" id="contacts">
+
+                <div class="hobbies" class="ho">
+                    <p><h3>Hobbies</h3></p>
+              <p>Coding</p>
+              <p>Cooking</p>
+              <p>Travelling</p>
+              <p>Sketching</p>
+            </div>
+               <div class="hobbies" class="ho">
+                <p><h3>Highlights</h3></p>
+                <p>Certified by NPTEL in IOT</p>
+                <p>4 star hackerrank in C</p>
+                <p>3 start hackerrank in problem solving</p>
+               <p>2 start hackerrank in problem solving</p>
+               </div>
+               <div class="hobbies" class="ho">
+                <p><h3>Contacts</h3></p>
+               <a href="#"><p>E-mail</p></a> 
+                <a href="https://www.linkedin.com/in/srishti-garg-a3b092297/"><p>LinkedIn</p></a>
+            
+                <a href="https://github.com/Srishtigarg05"><p>GitHub</p></a>
+            
+               </div>
+            </div>
+            <a href="#home" class="back-to-top">Back to Top <i class="fas fa-arrow-up"></i></a>
+        </div>
+        <pre>
+
+ &copy; 2024 Srishti Garg. All rights reserved.</pre>
+    </footer>
 </body>
 </html>
