@@ -6,6 +6,7 @@
 }
 
 :root {
+    --primary: #2563eb;
     --primary-color: #2563eb;
     --secondary-color: #4f46e5;
     --text-color: #1f2937;
@@ -15,6 +16,7 @@
     --hover-color: #1d4ed8;
     --gradient-start: #2563eb;
     --gradient-end: #4f46e5;
+    --gradient: linear-gradient(135deg, var(--primary), var(--secondary-color));
 }
 
 html {
@@ -470,6 +472,39 @@ footer {
 .hobbies a:hover {
     color: var(--primary-color);
 }
+/* Experience Timeline */
+.timeline {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    background: var(--gradient);
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.timeline-item {
+    margin-bottom: 3rem;
+    position: relative;
+}
+
+.timeline-dot {
+    width: 16px;
+    height: 16px;
+    background: var(--primary);
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 
 .back-to-top {
     display: inline-flex;
@@ -538,28 +573,69 @@ footer {
         padding: 1rem;
         flex-direction: column;
         
+        
     }
+    
     .background {
         height: 50px;
         background-repeat: no-repeat;
+        min-height: 300px;  /* Fixed square height */
+        width: 300px;       /* Fixed square width */
+       
+        background-size: cover;
+        background-position: center;
+        position: static;   /* Removes fixed positioning */
+        margin: 20px auto;  /* Centers the square and adds spacing */
+        border-radius: 8px; /* Optional: adds rounded corners */
+        
        
     }
-
+    .about-section{
+        margin-top: 50vh;
+        font-size: .8rem;
+    }
+.hero-section{
+    min-height: auto;
+        position: relative;
+        order: -1;
+        color: var(--gradient);
+        padding-top: 250px;
+        font-size: .8rem;
+       
+    
+        
+}
+.secondary-btn{
+    
+    background-color: #414347;
+}
     .nav_content ul {
        
         display: none;
     }
 
     .hero-content .name {
+
         font-size: 3rem;
         
     }
 
     .contact-container {
+        
         grid-template-columns: 1fr;
     }
 
     .last {
         grid-template-columns: 1fr;
+    }
+    .timeline{
+        max-width: 100%;
+        margin: 20vw;
+    }
+    .timeline-dot{
+        margin-left: 35vw;
+    }
+    .timeline::before{
+        margin-left: 35vw;
     }
 }
